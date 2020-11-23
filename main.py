@@ -5,4 +5,4 @@ from save import save_to_file
 indeed_jobs = get_indeed_jobs()
 # so_jobs = get_so_jobs()
 
-print(indeed_jobs)
+save_to_file(indeed_jobs)
